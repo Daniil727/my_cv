@@ -1,0 +1,142 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* здесь взяли шрифты с google fonts  */
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.header-wrapper{
+   padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.header-contacts{
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-info {
+    padding-left: 50px;
+    background: #F8F8FD;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+     list-style-type: none;
+     color: #9999A3;
+}
+.right > li{
+   color: black;
+}
+
+/* main */
+.main-work{
+    padding: 15px 315px;
+    color: #9999A3;
+}
+
+.main-wrapper{
+    padding-right: 220px;
+    padding-top: 30px;
+    padding-left: 70px;
+    /* border: 1px solid red;*/
+}
+.main-box{
+    padding-left: 245px;
+     display: flex;
+     justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+/* ==== */
+.main-ofTimeWork {
+    color: #2F2F33
+
+}
+
+.main-description {
+
+    padding-top: 20px;
+}
+
+.main-content{
+    max-width: 65%;
+}
+
+.main-Content{
+    padding-bottom: 10px;
+}
+
+.main-list:nth-child(1n) {
+     color: #9999A3;
+}
+
+.main-text {
+    background-color: #A9A9FD;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.more {
+    background-color: #F1A9FD;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* нужно добавить стили для контента */
+/* и стилизовать остальные секции */
+
+
+.skills, .language, .aboutMi {
+    margin-left: 245px;
+    margin-bottom: 50px;
+}
+
+.skillsContent, .languageContent, .aboutMiContent {
+    margin-bottom: 20px;
+    color: #BCBCC2;  
+}
+
+.skills-text, .language-text {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #F5F5FA;
+}
+
+
